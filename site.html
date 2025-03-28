@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Sharing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .logo {
+            height: 50px;
+        }
+        .website-title {
+            flex-grow: 1;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .file {
+            margin: 15px 0;
+            text-align: center;
+        }
+        .file img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .file a {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .file a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">  
+        <div class="website-title">My Website</div>
+    </div>
+    <div class="container">
+        <h2>Download Files</h2>
+        <p>Click on the images below to download files:</p><div class="file">
+        <img src="video1-thumbnail.jpg" alt="Video 1">
+        <a href="#" download>Download Video 1</a>
+    </div>
+    <div class="file">
+        <img src="video2-thumbnail.jpg" alt="Video 2">
+        <a href="#" download>Download Video 2</a>
+    </div>
+    <div class="file">
+        <img src="video3-thumbnail.jpg" alt="Video 3">
+        <a href="#" download>Download Video 3</a>
+    </div>
+</div>
+
+</body>
+</html>
